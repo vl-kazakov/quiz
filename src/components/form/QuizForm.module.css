@@ -1,0 +1,23 @@
+.container {
+  width: 328px;
+  height: 512px;
+  background-color: #ffffff;
+  box-shadow: 0px 10px 25px rgba(29, 52, 54, 0.08);
+  border-radius: 8px;
+  padding: 20px;
+  align-items: center;
+  margin: 0 auto;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; */
+}
+
+.text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #383838;
+  opacity: 0.5;
+}

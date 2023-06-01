@@ -1,0 +1,35 @@
+.button {
+  margin-top: auto;
+  padding: 12px;
+  width: 100%;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.dark {
+  background-color: #383838;
+}
+
+.light {
+  background-color: #f5f5f5;
+}
+
+.text {
+  color: #ffffff;
+  margin: 0 10px;
+}
+
+.text_dark {
+  margin: 0 10px;
+  color: #383838;
+}
+
+.iconwrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
