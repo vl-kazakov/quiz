@@ -1,17 +1,14 @@
 import React from "react";
 import RadioButton from "../../ui/radio/RadioButton";
-import { stepsData } from "../../../data/data";
 import cl from "./StepForm.module.css";
 
-const StepForm = () => {
-  const data = stepsData[0].answer;
-
+const StepForm = ({ question }) => {
   return (
     <div className={cl.step}>
+      <h3>{question}</h3>
+
       <div>
-        {data.map((el) => {
-          return <RadioButton title={el} />;
-        })}
+        <RadioButton title="кнопка" />
       </div>
     </div>
   );

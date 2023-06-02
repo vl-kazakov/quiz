@@ -1,0 +1,33 @@
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-grow: 1;
+}
+
+.circle {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #bdff6c 22.91%, #28cd3f 93.9%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+.icon__wrapper {
+  width: 18px;
+  height: 13px;
+  color: antiquewhite;
+}
+
+.description {
+  margin-top: 8px;
+  line-height: 20px;
+  text-align: center;
+  color: #9b9b9b;
+  font-size: 14px;
+}

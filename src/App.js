@@ -1,3 +1,4 @@
+import "normalize.css";
 import "./App.css";
 import QuizForm from "./components/form/QuizForm";
 import MainWrapper from "./components/wrapper/MainWrapper";
